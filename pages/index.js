@@ -5,6 +5,7 @@ const Home = ({ activities }) => {
   return (
     <main>
       <h1>ACTIVITIES (MASTERPAGE: OVERVIEW)</h1>
+      <p>DIT WERD NIEUW TOEGEVOEGD</p>
       <ul>
         {activities.map(({ act_id, act_title }) => (
           <li key={act_id}>
